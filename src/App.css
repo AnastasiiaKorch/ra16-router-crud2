@@ -1,0 +1,91 @@
+body {
+    background-color: lavenderblush;
+}
+
+.Main,
+.AddPost,
+.PostView {
+    width: 600px;
+    margin: 30px auto;
+    padding: 20px 30px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.Main__header {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+
+.Main__addpost {
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: lightpink;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Form__close,
+.PostView__close {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 35px;
+    line-height: 30px;
+}
+
+.Form__textarea {
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.Form__button,
+.PostView__edit,
+.PostView__delete {
+    display: block;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-bottom: 2px;
+    padding: 2px;
+    background-color: lightpink;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+}
+
+.Post {
+    border: 2px solid grey;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.Post__date {
+    width: 100%;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    background-color: white;
+    font-weight: bold;
+    color: grey;
+}
+
+.Post__content {
+    padding: 5px 15px;
+}
+
+.PostView__delete {
+    background-color: deeppink;
+}
